@@ -19,6 +19,6 @@ import os
 import sys
 sys.path.append('/opt/bitnami/apps/django/django_projects/my-proj')
 #os.environ.setdefault("PYTHON_EGG_CACHE", "/opt/bitnami/apps/django/django_projects/tutorial/egg_cache")
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "my-proj.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "portfolio.settings")
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
