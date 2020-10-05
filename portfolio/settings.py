@@ -30,6 +30,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 # ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = ['41816b5153ec.ngrok.io']
 ALLOWED_HOSTS = ['65.0.47.130']
+ALLOWED_HOSTS = ['rahulramkumar.in']
 # Application definition
 
 INSTALLED_APPS = [
