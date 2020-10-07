@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '&cahwqh=j%ky27#js%9ji+^*fp))_b
 # DEBUG = False
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['65.0.47.130']
 # ALLOWED_HOSTS = ['41816b5153ec.ngrok.io']
 #ALLOWED_HOSTS = ['www.rahulramkumar.in']
 # Application definition
